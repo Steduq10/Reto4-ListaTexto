@@ -1,0 +1,36 @@
+Usted forma parte de un equipo que se dedica a analizar textos pequeños para 
+conocer su composición. Los compañeros de equipo han creado a partir de un 
+cuento breve una lista de Python que contiene cada una de las palabras que lo 
+componen; pero en la creación de la lista de palabras no evitaron que 
+aparecieran adheridos a algunas de las palabras los signos de puntuación ni los 
+guiones que estaban dentro del cuento original.
+A pesar de ello, a usted le han delegado determinar cuáles son las 20 palabras 
+más frecuentes en esta lista de Python y también la cantidad de veces que cada 
+una de ellas aparece en la lista, con las siguientes condiciones:
+• Cada una de las 20 palabras más frecuentes y su conteo de veces deben 
+estar juntas en una lista así: (palabra, conteo_de_veces).
+• Todas las listas que contendrán los pares palabra-conteo_de_veces 
+deben estar contenidas a su vez en otra lista.
+• En el conteo debe incluir también aquellas palabras que, en el traspaso 
+de texto a lista de Python, arrastraron consigo mismas los signos de 
+puntuación y guiones que tuvieran en el cuento original.
+
+Debe crear su programa de tal forma que 
+toda la información que se usará para validar su solución (la lista conteniendo 
+las 20 palabras más frecuentes y sus cantidades de apariciones) se proporcione 
+a través de un sólo parámetro de entrada (la lista que contiene al cuento).
+
+
+TAREAS
+Realizar un programa en Python que le permita a usted informar en una lista de 
+listas cuáles son las 20 palabras más frecuentes en la lista que le entregaron y 
+la cantidad de veces que aparecen ellas. La ejecución de este programa debe 
+realizarse a través de una función principal denotada así:
+main(lista_texto)
+Esta función principal debe invocar otra u otras funciones que sean necesarias 
+para la creación de la lista de parejas (aquellas que usted considere necesarias 
+para lograr el objetivo) y que pueden ser una o varias; así mismo, esta función 
+principal main(lista_texto) debe retornar la lista de parejas con cada palabra y 
+su frecuencia en el cuento. Cada una de esas parejas debe estar contenida en 
+una lista, y todas esas listas estarán contenidas en la lista que debe retornar la 
+función main(lista_texto).
